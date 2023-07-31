@@ -360,7 +360,45 @@ int main() {
 
 ==================================================================================================================================================================
 
+* How Parameters & Arguments Work
+---------------------------------
+A function with parameters has a couple of requirements:
 
+	. The function call must include the same number of arguments as there are parameters.
+
+	. The corresponding arguments must be passed in the same order.
+
+By calling a function with arguments, you are telling a function, “Hey function, when you execute, use these values where you have parameters in your definition.”
+
+While it executes, anywhere the function comes across a parameter, it replaces the parameter with the corresponding argument you gave it.
+
+==================================================================================================================================================================
+
+* Review of C++ Functions
+-------------------------
+Wow! Check out all you’ve learned about C++ functions:
+
+	. A function is a named group of statements that do something together.
+
+	. Functions allow you to create more flexible, modular, and DRY code.
+
+	. C++ has many built-in functions that you can use.
+
+	. Functions are called like function_name();
+
+	. A function has a declaration with a return type and possible parameters.
+	
+	. A function has a definition (or body) with a group of statements and a possible return value.
+
+	. void functions do not have return values.
+
+	. Functions with a return value have return statements.
+
+	. Parameters are variables used as placeholders for function input values.
+
+	. Arguments are a function’s actual input values.
+
+You now know enough C++ to create some pretty cool projects on your own. But, as you’ll see, there are still many ways to improve your code.
 
 
 
